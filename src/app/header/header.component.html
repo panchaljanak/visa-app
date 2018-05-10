@@ -1,0 +1,70 @@
+ <div class="header-section">
+<div class="container">
+<header>
+<div class="logo">
+<a href="#" title="Visa logo">
+<img src="/assets/images/logo.png" />
+</a>
+</div>
+<div class="menu-list">
+<ul class="menu-bar">
+<li (click)="selectNavMenu($event, 'Pay With Visa')" [ngClass]="{active: selectedMenu === 'Pay With Visa'}" class="menu-item">
+<a href="#">Pay With Visa</a>
+</li>
+<li (click)="selectNavMenu($event, 'Partner With Us')" [ngClass]="{active: selectedMenu === 'Partner With Us'}" class="menu-item">
+<a href="#">Partner With Us</a>
+</li>
+<li (click)="selectNavMenu($event, 'Run Your Business')" [ngClass]="{active: selectedMenu === 'Run Your Business'}" class="menu-item">
+<a href="#">Run Your Business</a>
+</li>
+<li (click)="selectNavMenu($event, 'Travel With Visa')" [ngClass]="{active: selectedMenu === 'Travel With Visa'}" class="menu-item">
+<a href="#">Travel With Visa</a>
+</li>
+<li (click)="selectNavMenu($event, 'Visa Everywhere')" [ngClass]="{active: selectedMenu === 'Visa Everywhere'}" class="menu-item">
+<a href="#">Visa Everywhere</a>
+</li>
+<li class="menu-item" (click)="selectNavMenu($event, 'Search')" [ngClass]="{active: selectedMenu === 'Search'}">
+<a href="#">
+<i class="fa fa-search" aria-hidden="true"></i>
+</a>
+</li>
+</ul>
+                
+  
+</div>
+<div class="hamburger">
+<img src="/assets/images/hamburger.jpg" />
+<a href="#">
+<i class="fa fa-search" aria-hidden="true"></i>
+</a>
+</div>
+</header>
+</div>
+<img src="/assets/images/arrow.png" [hidden]="showArrowIndicator" [ngStyle]="{'left': arrowLeftPosition}" class="navigation-arrow" />
+</div>
+<div class="mobileNav">
+<div class="mobilenav-items">
+<ul class="navbar">
+<li>
+<a href="#">
+<span class="fa fa-angle-right"></span>Pay With Visa </a>
+</li>
+<li>
+<a href="#">
+<span class="fa fa-angle-right"></span>Partner With Us </a>
+</li>
+<li>
+<a href="#">
+<span class="fa fa-angle-right"></span>Run Your Business </a>
+</li>
+<li>
+<a href="#">
+<span class="fa fa-angle-right"></span>Travel With Visa</a>
+</li>
+<li>
+<a href="#">
+<span class="fa fa-angle-right"></span>Visa Everywhere </a>
+</li>
+</ul>
+</div>
+</div>

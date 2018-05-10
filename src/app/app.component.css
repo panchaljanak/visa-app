@@ -1,0 +1,13 @@
+body{
+    margin:0px;
+    font-family: 'open-sans',sans-serif,Tahoma;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0px 30px;
+}
+.header-section{
+    background: linear-gradient(45deg,#1a1e5a 0,#122d98 100%);
+    border-bottom: 5px solid #f2ca13;
+}
